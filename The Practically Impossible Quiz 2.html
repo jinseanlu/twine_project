@@ -1,4 +1,5 @@
 <!--The second quiz is out now!-->
+<!--There are many references to the Impossible Quiz. Have fun!-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,7 +45,7 @@ What is this?
 [[ON]]</tw-passagedata><tw-passagedata pid="8" name="I DON&quot;T UNDASTAND" tags="" position="775,875" size="100,100">Yeah, it&#39;s fine but...
 &lt;img src=&quot;https://t4.ftcdn.net/jpg/02/11/54/33/360_F_211543376_kv7x0SwdITkWbqajGzglhcvZV25AsPsS.jpg&quot;&gt;
 [[Restart]]</tw-passagedata><tw-passagedata pid="9" name="OK" tags="" position="900,875" size="100,100">(set: $q4 to (prompt:&quot;It&#39;s been 16 years, can you remember?&quot;,&quot;&quot;))
-(if: $q4 is &quot;blue red blue yellow&quot;)[Yezzzir! [[QUestion 4]]](else:)[Aww Man...]</tw-passagedata><tw-passagedata pid="10" name="NO" tags="" position="650,875" size="100,100">???
+(if: $q4 is &quot;blue red blue yellow&quot; or &quot;brby&quot;)[Yezzzir! [[QUestion 4]]](else:)[Aww Man...]</tw-passagedata><tw-passagedata pid="10" name="NO" tags="" position="650,875" size="100,100">???
 [[Restart]]</tw-passagedata><tw-passagedata pid="11" name="ON" tags="" position="775,1000" size="100,100">NO
 [[Restart]]</tw-passagedata><tw-passagedata pid="12" name="KO" tags="" position="900,1000" size="100,100">You&#39;re just bed at this
 [[Restart]]</tw-passagedata><tw-passagedata pid="13" name="QUestion 4" tags="" position="1025,1000" size="100,100">&#39;&#39;Why is&#39;&#39; (text-color: white)[[Questoin]] &#39;&#39; read QUestion 4 instead of Question 4?&#39;&#39;
@@ -132,7 +133,7 @@ anyway, what is 89-87
 [[Restart]]</tw-passagedata><tw-passagedata pid="38" name="7483" tags="" position="900,2000" size="100,100">xhaljdshf n almdskjfvmlkjshmlkg4amheslkuvhmeslkfghslkfiwregnir7uewnykiglkyiayrliewruikawyerhfyohyoiyinefvmuhkahfka.exe
 [[Restart]]</tw-passagedata><tw-passagedata pid="39" name="29" tags="" position="650,2000" size="100,100">&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bsodwindows10.png/220px-Bsodwindows10.png&quot; height=500 width=700&gt;
 [[Restart]]</tw-passagedata><tw-passagedata pid="40" name="2" tags="" position="1025,2125" size="100,100">(if: $counter is 2)[You&#39;re so good! [[Question 8]]](else:)[You failure [[Restart]]]</tw-passagedata><tw-passagedata pid="41" name="Question 8" tags="" position="400,1700" size="100,100">(set: $q8 to (prompt:&quot;Who&#39;s the bezt cuber?&quot;,&quot;&quot;))
-(if: $q8 is &quot;Max Park&quot; or &quot;max park&quot;)[You good [[Question 9]]]</tw-passagedata><tw-passagedata pid="42" name="Question 9" tags="" position="300,1700" size="100,100">(set: $q9 to (prompt: &quot;The code is lost again&quot;,&quot;&quot;))
+(if: $q8 is &quot;Max Park&quot; or &quot;max park&quot; or &quot;Yiheng Wang&quot; or &quot;yiheng wang&quot;)[You good [[Question 9]]](else:)[u not smrat hee hee hee haw![[Restart]]]</tw-passagedata><tw-passagedata pid="42" name="Question 9" tags="" position="300,1700" size="100,100">(set: $q9 to (prompt: &quot;The code is lost again&quot;,&quot;&quot;))
 (if: $q9 is &quot;4 8 15 16 23 42&quot;)[Ok... [[Question 10]]](else:)[What a relief! You failed! [[Restart]]]
 </tw-passagedata><tw-passagedata pid="43" name="Question 10" tags="" position="200,1700" size="100,100">What do you want the level difficulty to be?
 [[Easy]]
@@ -169,6 +170,14 @@ anyway, what is 89-87
 [[Restart]]</tw-passagedata><tw-passagedata pid="55" name="Q12" tags="" position="300,2525" size="100,100">You&#39;ve made a long journey. Now, there&#39;s a timed problem. You have to do this quick or else s you will die since you don&#39;t have a brain i. Now look carefully at the code bottom x. What is the code t going to be after looking at the image y.
 
 23 × 3 = ?
+(set: $counter to 6)
+Here's your time: |amount&gt;[$counter] 
+
+(live: 1s)[
+	(set: $counter to it - 1)
+	(if: $counter is 0)[(go-to: &quot;Game Over&quot;)]
+	(replace: ?amount)[$counter]
+]
 
 [[60]]
 [[69]]
@@ -236,9 +245,9 @@ How much of the quiz do you like?
 [[Restart]]
 [[Oh hell Nah!]] 
 
-</tw-passagedata><tw-passagedata pid="66" name="M2 E2 S2" tags="" position="425,3275" size="100,100">u no cuber</tw-passagedata><tw-passagedata pid="67" name="R2 L2 U2 D2 B2 F2" tags="" position="175,3275" size="100,100">adsfadsf;ueiwqpumfou4012743rpoiufjas;dfwill qpi974m0189732upoijskafoijqpwegiveu810j43ougmiuvmajojfil;jkoiewqpeufu a cjeckerboard ha dslkfamsud7-45971903724-098tg.exe
+</tw-passagedata><tw-passagedata pid="66" name="M2 E2 S2" tags="" position="425,3275" size="100,100">u no cuber [[Restart]]</tw-passagedata><tw-passagedata pid="67" name="R2 L2 U2 D2 B2 F2" tags="" position="175,3275" size="100,100">adsfadsf;ueiwqpumfou4012743rpoiufjas;dfwill qpi974m0189732upoijskafoijqpwegiveu810j43ougmiuvmajojfil;jkoiewqpeufu a cjeckerboard ha dslkfamsud7-45971903724-098tg.exe
 
-[[Restart\\</tw-passagedata><tw-passagedata pid="68" name="I don&#39;t cube" tags="" position="300,3400" size="100,100">GET OUT OF HERE!
+[[Restart]]</tw-passagedata><tw-passagedata pid="68" name="I don&#39;t cube" tags="" position="300,3400" size="100,100">GET OUT OF HERE!
 
 We have deleted the images for some &quot;violent&quot; reasons - Administrator of Quizzes
 
